@@ -43,8 +43,8 @@ def user_login(client):
         if back_dic['flag']:
             user_data['session'] = back_dic['session']
             user_data['is_vip'] = back_dic['is_vip']
-            print(user_data['is_vip'])
             print(back_dic['msg'])
+            print(back_dic['last_notice'])
             break
         else:
             print(back_dic['msg'])
